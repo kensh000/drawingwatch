@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>お問い合わせ - Drawing Watch</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="contact.css">
+    <!-- <script src="main.js"></script>　（別にアニメーションいらないためコメントアウト中） -->
+</head>
+<body>
+    <header class="header">
+        <div id="header_logo_a"><a href="index.html" id="header_logo_a">
+            <img src="Drawing_Watch-icon_1024.png" id="header_logo">
+            <h3 id="header_name">Drawing Watch</h3>
+        </a></div>
+        <h4 id="header_contact">    ー お問い合わせ</h4>
+        <div class="hamberger_menu">
+            <input id="hamberger_input" class="hamberger_hid" type="checkbox">
+            <label for="hamberger_input" class="hamberger_open"><span></span></label>
+        </div>
+    </header>
+
+    <nav class="menu_nav" id="side_menu">
+                <!-- ハンバーガメニュー -->
+                <ul class="menu-group">
+                    <!-- URL指定忘れずに -->
+                    <li class="menu-item" id="menu_top"><a href="index.html">トップ</a></li>
+                    <li class="menu-item"><a href="example.html">作例</a></li>
+                    <li class="menu-item"><a href="privacypolicy.html">プライバシーポリシー</a></li>
+                    <li class="menu-item"><a href="contact.html">お問い合わせ</a></li>
+                    <li class="menu-item"><a href="faq.html">よくあるご質問</a></li>
+                    <li class="menu-item"><a href="about.html">アプリ情報</a></li>
+                    <li class="menu-item"><a href="update.html">更新情報</a></li>
+                    <li class="menu-item"><a href=""></a></li>  <!-- あとでApp Storeのダウンロードボタンを埋め込む -->
+                </ul>
+            </nav>
+
+    <section class="contact_top">
+        <h3 class="title">お問い合わせ</h3>
+        <p>アプリに関するご質問やご要望、不具合のご報告などがございましたら、下記の方法でお問い合わせください。</p>
+    </section>
+
+    <section class="contact_what">
+        <h4>お問い合わせいただける内容</h4>
+        <ul class="contact_what_items">
+            <li class="contact_what_item">アプリの使い方に関するご質問</li>
+            <li class="contact_what_item">不具合/動作に関するご報告</li>
+            <li class="contact_what_item">ご意見/ご要望</li>
+            <li class="contact_what_item">プライバシーポリシーに関するご意見/ご質問</li>
+            <li class="contact_what_item">作例のご提供</li>
+        </ul>
+        <p>※<span class="red"><b>社会通念上許容される範囲を超えるもののお問い合わせはしないで</b></span>ください。
+            <br>お問い合わせいただいた内容が上記の項目のいずれにも該当しない内容、迷惑行為やその他対応の必要がないものと判断した場合、そのお問い合わせへの対応はいたしかねます。</p>
+    </section>
+
+    <section class="contact_contents">
+        <h4>記載していただきたい内容</h4>
+        <p>可能な範囲で以下の情報をお知らせください。</p>
+        <ul>
+            <li class="contact_content">iPhoneの Drawing Watch アプリのバージョン （Drawing Watch > About > バージョン）</li>
+            <li class="contact_content">お問い合わせ内容</li>
+            <li class="contact_content">連絡可能なメールアドレス</li>
+            <li class="contact_content">不具合に関するお問い合わせの場合、作例のご提供の場合は以下の情報もお知らせください。</li>
+        </ul>
+
+        <h5>不具合に関するお問い合わせの場合</h5>
+        <p id="contact_trouble_p">不具合に関するお問い合わせの場合、上記の情報に加え、以下の情報も可能な範囲でお知らせください。</p>
+        <ul class="contact_trouble">
+            <li class="contact_content">使用している端末 （設定アプリ > 一般 > 情報）</li>
+            <li class="contact_content">iOS, watchOSのバージョン （設定アプリ > 一般 > 情報）</li>
+            <li class="contact_content">発生した症状・エラーメッセージ</li>
+            <li class="contact_content">症状が発生するまでの操作</li>
+        </ul>
+
+        <h5>作例のご提供の場合</h5>
+        <p id="contact_trouble_p">作例ページに掲載するための作品をご提供いただける場合、上記の情報に加え、以下の情報も可能な範囲でお知らせください。</p>
+        <ul class="contact_trouble">
+            <li class="contact_content">作例をご提供いただける旨</li>
+            <li class="contact_content">作品の PNG画像（jsonファイルは送らないでください）</li>
+            <li class="contact_content">作品完成日（完全任意）</li>
+            <li class="contact_content">作品へのコメント（完全任意）</li>
+        </ul>
+        <p id="contact_trouble_p">なお、作品のご提供の際は以下の点をあらかじめご了承ください。</p>
+        <ul class="contact_trouble">
+            <li class="contact_content">提供していただいた作品が必ずしも掲載されるわけではありません。</li>
+            <li class="contact_content">Webサイトに掲載する際、データサイズの関係で画像をwebp形式などに変換する場合があり、変換の結果として画質が元データからやや劣化する可能性があります。</li>
+            <li class="contact_content">提供していただいた作品の掲載期間は当方にて決定させていただきます。</li>
+        </ul>
+
+        <section id="contact_contents_bottom">
+            <p>お問い合わせの際は上記の情報を<b>できるだけ詳しく</b>お知らせください。
+                <br>詳しい情報をお知らせいただくことで、より早期に対応できる可能性があります。</p>
+            <p>お知らせいただいたメールアドレスの取り扱いについては、&nbsp;&nbsp;<a href="">プライバシーポリシー</a>&nbsp;&nbsp;をご覧ください。</p>
+            <p>※お問い合わせの内容によっては回答までにお時間をいただくことがあります。
+                <br>※お問い合わせの際は、<span class="red"><b>氏名、住所、電話番号などの不要な個人情報を絶対に送信しないで</b></span>ください。</p>
+        </section>
+
+    </section>
+
+    <section class="contact_where">
+        <h4>お問い合せ先</h4>
+        <p>メールアドレス: </p> <!-- メールアドレスを入れておく -->
+    </section>
+
+    <footer class="footer">
+        <div class="footer_sec">
+            <div class="footer_logo_name">
+                <img src="Drawing_Watch-icon_1024.png" id="footer_logo">
+                <h3 id="footer_name">Drawing Watch</h3>
+
+            </div>
+            <div class="footer-menu">
+                <ul class="footer-link">
+                    <li class="footer-item"><a href="index.html">トップ</a></li>
+                    <li class="footer-item"><a href="example.html">作例</a></li>
+                    <li class="footer-item"><a href="privacypolicy.html">プライバシーポリシー</a></li>
+                    <li class="footer-item"><a href="contact.html">お問い合わせ</a></li>
+                    <li class="footer-item"><a href="faq.html">よくあるご質問</a></li>
+                    <li class="footer-item"><a href="about.html">アプリ情報</a></li>
+                    <li class="footer-item"><a href="update.html">更新情報</a></li>
+                    <li class="footer-item"><a href=""></a></li><!-- あとでApp Storeのダウンロードボタンを埋め込む -->
+                </ul>
+            </div>
+            <div class="copyright">
+                <h3 id="kensho_right">© 2026 Kensho All rights reserved.</h3>
+                <p id="apple_right">iPhone, Apple Watch, iOS, wathcOS はApple Inc.の登録商標です。
+                    <br>iPhoneの商標は、アイホン株式会社のライセンスに基づき使用されています。</p>
+                <p id="donotcopy">当サイトに掲載されている記事・写真・図表などの無断転載・複製を禁じます。</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

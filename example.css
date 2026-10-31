@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+#header_example{
+    height: clamp(50px, 7vh, 80px);
+    line-height: clamp(42.85px, 6.2vh, 68.5px);
+    padding-left: clamp(10px, 2vw, 30px);
+}
+
+@media screen and (max-width: 480px) {
+    #header_example{
+        display: none;
+    }
+}
+
+h4{
+    font-size: clamp(18px, 2.4vw, 30px);
+    padding-top: clamp(5px, 0.8vh, 30px);
+}
+
+a{
+    color: black;
+}
+
+#example_want_caution{
+    padding-inline-start: 30px;
+}
+
+#h4_marker{
+    font-size: clamp(18px, 2.4vw, 30px);
+    padding-top: clamp(5px, 0.8vh, 30px);
+    background-size: 100% 25%;
+}
+
+#comingsoon{
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+    font-size: 6vh;
+    text-align: center;
+}

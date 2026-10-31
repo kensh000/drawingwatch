@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>アプリ情報 - Drawing Watch</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="about.css">
+    <script src="main.js"></script>
+    
+    <!-- Google fontより Shippori Mincho B1。いや本当に神フォントなんですよこれ。製作者様本当にありがとうございます。 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Rock+3D&family=Shippori+Mincho+B1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div id="header_logo_a"><a href="index.html" id="header_logo_a">
+            <img src="Drawing_Watch-icon_1024.png" id="header_logo">
+            <h3 id="header_name">Drawing Watch</h3>
+        </a></div>
+        <h4 id="header_about">    ー アプリ情報</h4>
+        <div class="hamberger_menu">
+            <input id="hamberger_input" class="hamberger_hid" type="checkbox">
+            <label for="hamberger_input" class="hamberger_open"><span></span></label>
+        </div>
+    </header>
+
+    <nav class="menu_nav" id="side_menu">
+                <!-- ハンバーガメニュー -->
+                <ul class="menu-group">
+                    <!-- URL指定忘れずに -->
+                    <li class="menu-item" id="menu_top"><a href="index.html">トップ</a></li>
+                    <li class="menu-item"><a href="example.html">作例</a></li>
+                    <li class="menu-item"><a href="privacypolicy.html">プライバシーポリシー</a></li>
+                    <li class="menu-item"><a href="contact.html">お問い合わせ</a></li>
+                    <li class="menu-item"><a href="faq.html">よくあるご質問</a></li>
+                    <li class="menu-item"><a href="about.html">アプリ情報</a></li>
+                    <li class="menu-item"><a href="update.html">更新情報</a></li>
+                    <li class="menu-item"><a href=""></a></li>  <!-- あとでApp Storeのダウンロードボタンを埋め込む -->
+                </ul>
+            </nav>
+
+    <section class="about_top">
+        <h4 class="title">アプリ情報</h4>
+        <p>このベージでは Drawing Watch の情報と開発者からのメッセージをご覧いただけます。</p>
+    </section>
+
+    <section id="about_table">
+        <table>
+            <tbody>
+                <tr id="table_top">
+                    <td>アプリ名</td>
+                    <td>Drawing Watch</td>
+                </tr>
+                <tr>
+                    <td>対応環境</td>
+                    <td>・iOS26.0以上を搭載したiPhone<br>・watchOS26.0以上を搭載したApple Watch<br>※iPhone Duoへの最適化は行なっておりません。動作には問題ありませんが、アプリ内のインターフェースが使いづらく感じる可能性があります。ご了承ください。</td>
+                </tr>
+                <tr>
+                    <td>最新バージョン</td>
+                    <td>Drawing Watch のリリースをお楽しみに！</td>
+                </tr>
+                <tr id="tale_bottom">
+                    <td>開発者</td>
+                    <td>Kensho</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="message">
+        <h4>開発者からみなさんへのメッセージ</h4>
+        <p>はじめまして。開発者の Kensho です。
+            <br>「Drawing Watch」は私が初めて公開を前提に開発したアプリです。
+            <br>このアプリを開発しようと思ったきっかけは「小学生スマホ指描きに対抗したい」ということでした。</p>
+        <p>SNSを徘徊していたある日、人間を描いたとある絵が流れてきました。
+            <br>「なんて上手い絵なんだ！ フォローしたい！」と思い、プロフィールを見ると......「小学生」や「スマホ指描き」の文字が。そのとき私が受けたショックを表す言葉は、今になってもまだ見つかりません。
+            <br>その頃は私はまだ人間の絵が描けなかったこともあり、余計に衝撃が大きくなったのでしょう。</p>
+        <p>人間の絵は書けませんでしたが、街並みや風景画は描けたため、絵を描くコミュニティに属していました。そのコミニュティでこのことを話してみると、
+            <br>「あぁ、スマホ指描き勢ね。割といるよね」と。</p>
+        <p>人間の絵がスマホという小さな画面で、指を使って描ける。しかも小学生。
+            <br>これほどの方々と比べてしまうと、自分かなんでもない、至って平凡な人間であると改めて実感させられました。</p>
+        <p>しかし、私は諦めませんでした。</p>
+        <p>そんな超人の方々に私が対抗する方法はないのか？</p>
+        <p>そう考えること数年。ついに、一つの答えを導き出しました。</p>
+        <p>「<span id="message_strong">物理で対抗すれば良い</span>」</p>
+        <p>そうです。世の中というのは意外にも単純なのです。
+            <br>年齢という点で勝つことは絶対にできません。
+            <br>しかし、より小さなハードウェアなら？
+            <br>これが、これこそが <span class="marker">小学生スマホ指描きへの最終対抗手段</span> です。
+            <br>もちろん同レベルの絵を描く必要はありますが、練習をすれば問題ないでしょう。</p>
+        <p>私はスマホよりも小さく、スマホと同等の品質のタッチパネルをもつデバイスを探しました。
+            <br>おや？&emsp;自分の手首に「Apple Watch」が着いているじゃないですか。
+            <br>これで絵を書けばいい。そう考えました。</p>
+        <p>しかし、市場にあるApple Watch用のお絵描きアプリは数が少なく、また私の求めるものを満たしていません。
+            <br>ならば自分で作ろう。それが「Drawing Watch」の始まりです。</p>
+        <p>「Drawing Watch」開発における目標は4つ。
+            <br>・思考を阻害しない究極の快適性があること
+            <br>・制作した作品を十分な画質で描き出せること
+            <br>・同人誌制作に使えるほどの圧倒的な品質の作品を制作できること
+            <br>・小学生スマホ指描きに対抗できること
+        </p>
+        <p>こうして開発を進めていき、2026年8月。
+            <br>途中で誤って作品データを全消去したり、開発用Macのストレージが残り0.6GBになったりと紆余曲折しかなかったものの、
+            <b>自分の参加する合同誌に、「Drawing Watch」で制作した作品を提出することができました</b>。
+            <br>突拍子のない思いつきから、ついに、真の意味で「使える」アプリの開発に成功しました。</p>
+        <p><b>そしてまもなく、みなさんに「Drawing Watch」を提供できるようになります。</b></p> <!-- 公開後に過去形にするのを忘れずに -->
+        <p id="about_copy_parent_pc"><span class="marker" id="about_copy">キャンパスを、あなたの手首に。</span></p>
+        <p id="about_copy_parent_phone"><span class="marker" id="about_copy">キャンパスを、<br>あなたの手首に。</span></p>
+        <div id="message_name_div">
+            <p class="message_name">Drawing Watch 開発者</p>
+            <p class="message_name">Kensho</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer_sec">
+            <div class="footer_logo_name">
+                <img src="Drawing_Watch-icon_1024.png" id="footer_logo">
+                <h3 id="footer_name">Drawing Watch</h3>
+            </div>
+            <div class="footer-menu">
+                <ul class="footer-link">
+                    <li class="footer-item"><a href="index.html">トップ</a></li>
+                    <li class="footer-item"><a href="example.html">作例</a></li>
+                    <li class="footer-item"><a href="privacypolicy.html">プライバシーポリシー</a></li>
+                    <li class="footer-item"><a href="contact.html">お問い合わせ</a></li>
+                    <li class="footer-item"><a href="faq.html">よくあるご質問</a></li>
+                    <li class="footer-item"><a href="about.html">アプリ情報</a></li>
+                    <li class="footer-item"><a href="update.html">更新情報</a></li>
+                    <li class="footer-item"><a href=""></a></li><!-- あとでApp Storeのダウンロードボタンを埋め込む -->
+                </ul>
+            </div>
+            <div class="copyright">
+                <h3 id="kensho_right">© 2026 Kensho All rights reserved.</h3>
+                <p id="apple_right">iPhone, iPhone Duo, Apple Watch, Mac, iOS, watchOS はApple Inc.の登録商標です。
+                    <br>iPhoneの商標は、アイホン株式会社のライセンスに基づき使用されています。</p>
+                <p id="donotcopy">当サイトに掲載されている記事・写真・図表などの無断転載・複製を禁じます。</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

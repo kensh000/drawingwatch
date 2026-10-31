@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+#header_about{
+    height: clamp(50px, 7vh, 80px);
+    line-height: clamp(42.85px, 6.2vh, 68.5px);
+    padding-left: clamp(10px, 2vw, 30px);
+}
+
+@media screen and (max-width: 480px) {
+    #header_about{
+        display: none;
+    }
+}
+
+h4{
+    font-size: clamp(18px, 2.4vw, 30px);
+    padding-top: clamp(5px, 0.8vh, 30px);
+}
+
+a{
+    color: black;
+}
+
+tr:not(#table_top){
+    border-top: 1.5px solid rgb(210, 210, 210);
+}
+
+th,
+td{
+    padding: 1vw;
+    padding-left: 2vw;
+}
+
+#about_table{
+    margin-left: 0;
+    padding-left: 4.8vw;
+    padding-top: 3vh;
+}
+
+table{
+    border-collapse: collapse;
+    padding-left: 3vw;
+    font-size: clamp(15px, 1.8vw, 22px);
+}
+
+.message{
+    padding-top: 3vh;
+}
+
+.message h4{
+    padding-bottom: 0.6vh;
+}
+
+#message_strong{
+    font-size: clamp(20px, 2.5vw, 30px);
+    font-weight: bold;
+}
+
+.message_name{
+    justify-content: flex-end;
+    display: flex;
+    font-weight: bold;
+    font-size: clamp(18px, 2.2vw, 26px);
+}
+
+#message_name_div{
+    padding-right: 3vw;
+    padding-top: clamp(10px, 1.5vh, 2vw);
+    padding-bottom: clamp(10px, 1.5vh, 2vw);
+}
+
+#about_copy_parent_pc,
+#about_copy_parent_phone{
+    padding-top: clamp(30px, 6vh, 6vw);
+    padding-bottom: clamp(20px, 3vh, 4vw);
+}
+
+#about_copy{
+    padding-top: clamp(20px, 3vh, 4vw);
+    font-family: "Shippori Mincho B1", "Hiragino Mincho ProN", YuMincho, serif;
+    font-weight: 800;
+    font-size: clamp(24px, 2.4vw, 60px);
+    font-style: normal;
+    background-size: 0% 15%;
+}
+
+#about_copy.on {
+    /* アニメーション用 横方向を100%にしてマーカーを引く */
+    background-size: 100% 15%;
+}
+
+@media screen and (max-width: 480px) {
+    #about_copy_parent_pc{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    #about_copy_parent_phone{
+        display: none;
+    }
+}

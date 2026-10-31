@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+#header_update{
+    height: clamp(50px, 7vh, 80px);
+    line-height: clamp(42.85px, 6.2vh, 68.5px);
+    padding-left: clamp(10px, 2vw, 30px);
+}
+
+@media screen and (max-width: 480px) {
+    #header_update{
+        display: none;
+    }
+}
+
+h4{
+    font-size: clamp(18px, 2.4vw, 30px);
+    padding-top: clamp(5px, 0.8vh, 30px);
+}
+
+.app-update-info,
+.web-update-info h5{
+    padding-top: clamp(5px, 0.8vh, 20px);
+    font-size: clamp(16px, 2.0vw, 22px);
+    font-weight: bold;
+}
+
+.app-update-info,
+.web-update-info p{
+    padding-top: clamp(2px, 0.3vh, 10px);
+}
+
+#pleasewait{
+    text-align: center;
+    padding: 5vw;
+}
+
+#pleasewait_marker{
+    font-size: clamp(25px, 3.0vw, 40px);
+}
+
+.update_list{
+    padding-left: 3.0vw;
+    font-size: clamp(15px, 1.8vw, 22px);
+}
