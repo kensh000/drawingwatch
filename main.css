@@ -269,13 +269,14 @@ body:has(#hamberger_input:checked) .menu_nav {
 #top_photo_pc{
     max-width: 95vw;
     max-height: 92vh;
+    padding-top: clamp(25px, 5vh, 50px);
     padding-bottom: clamp(25px, 10vh, 100px);
 }
 
 #top_photo_phone{
     max-width: 95vw;
     max-height: 92vh;
-    padding-top: clamp(7px, 5vh, 100px);
+    padding-top: clamp(7px, 5vh, 25px);
     padding-bottom: clamp(10px, 20vh, 100px);
 }
 
