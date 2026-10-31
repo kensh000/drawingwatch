@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing Watch</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <header class="header">
+        <img src="Drawing_Watch-icon_1024.png" id="header_logo">
+        <h3 id="header_name">Drawing Watch</h3>
+        <div class="hamberger_menu">
+            <input id="hamberger_input" class="hamberger_hid" type="checkbox">
+            <label for="hamberger_input" class="hamberger_open"><span></span></label>
+        </div>
+    </header>
+
+    <nav class="menu_nav" id="side_menu">
+                <!-- ハンバーガメニュー -->
+                <ul class="menu-group">
+                    <!-- URL指定忘れずに -->
+                    <li class="menu-item" id="menu_top"><a href="">トップ</a></li>
+                    <li class="menu-item"><a href="">作例</a></li>
+                    <li class="menu-item"><a href="">プライバシーポリシー</a></li>
+                    <li class="menu-item"><a href="">お問い合わせ</a></li>
+                    <li class="menu-item"><a href="">よくあるご質問</a></li>
+                    <li class="menu-item"><a href="">アプリ情報</a></li>
+                    <li class="menu-item"><a href="">更新情報</a></li>
+                    <li class="menu-item"><a href=""></a></li>  <!-- あとでApp Storeのダウンロードボタンを埋め込む -->
+                </ul>
+            </nav>
+
+    <section class="hello">
+        <img src="drawing_watch_PC_photo.png" id="top_photo">
+        <h1>Drawing Watch</h1>
+        <h3>キャンパスを、あなたの手首に</h3>
+        <h3 id="hello_bottom">Apple Watch指描きアプリ</h3>
+        <h4 id="pleasewait_index_1">年内リリース予定・無料</h4>
+        <h4 id="pleasewait_index_2">お楽しみに！</h4>
+        <p id="pleasewait_index_2">サイトをお気に入りに登録して最新情報をチェック！</p>
+    </section>
+
+    <section class="about">
+        <h3 class="title">Drawing Watchとは？</h3>
+        <p>Drawing WatchはApple Watch上で<strong>「同人誌レベル」</strong>の作品を描くことを目的として作られた
+            <br><span class="marker">「<strong>Apple Watch指描きアプリ</strong>」です<span>。</p>
+        <div class="accordions">
+            <details class="accordion" id="about_closely">
+                <summary class="accordion_title">
+                    <span class="accordion_icon" aria-hidden="true"></span>
+                    <h3>もっと詳しく</h3>
+                </summary>
+                <section class="accordion_body">
+                    <section id="accordion_content flow">
+                        <h4 class="details_subtitle">基本理念</h4>
+                        <p class="details_p">Drawing Watchの理念は
+                            <br>「描く道具がなく失われてしまった創作意欲をなくすこと」
+                            <br>「限りなく快適な操作性で思考を阻害しないこと」
+                            <br>そして「小学生スマホ指描き絵師に物理的に対抗すること」です。</p>
+                        <h4 class="details_subtitle">失われる創作意欲をなくす</h4>
+                        <p class="details_p">創作意欲とは<span class="marker">常に突然湧いてくる</span>もの、と考えています。<br>しかし、「手元にiPadや液タブがない」、「起動が面倒」や「スマホの起動すら面倒」などの理由で<b>せっかく生まれた創作意欲が失われる</b>ということはないでしょうか？
+                            <br>その意欲が失われなければ、あなたは素晴らしいものを生み出せていたかもしれません。</p>
+                        <p class="details_p">そこで私は「Apple Watch」という、ほぼ一日中身につけているデバイスに着目しました。
+                            <br>このデバイスで絵を描けるならば、たとえトイレに篭っていようとも、あなたの創作意欲の受け皿となることができます。</p>
+                        <h4 class="details_subtitle">思考を阻害しない操作性を</h4>
+                        <p class="details_p">どんなに素晴らしい気持ちがあったとしても、描くツールが使いにくかったら？
+                            <br>ええ、きっと描くのを諦めたくなってしまうでしょう。
+                            <br>そのため、「Drawing Watch」ではApple Watchの小さな画面上でも、極限まで操作性を追求しています。
+                            <br>その操作性を支える機能たちは後ほどご紹介します。</p>
+                        <h4 class="details_subtitle">小学生スマホ指描き絵師への対抗手段を</h4>
+                        <p class="details_p">近年、X(旧Twitter)などに「小学生スマホ指描き絵師」と呼ばれる人々が出現しています
+                            。<br>彼らはとても若く、道具もスマホと自分の指だけです。
+                            <br>しかし、非常に本格的で嫉妬してしまうほどうまいデジタルイラストを制作しています。
+                            <br>私たちが同じ条件で制作しようとも、年齢という点においては絶対に勝つことができません。
+                            <br>唯一対抗できるのは何か？
+                            <br>そう、<span class="marker">ハードウェア</span>です。</p>
+                        <p class="details_p">あなたも、どんなに大きくとも49mmしかない画面の「<span class="marker"><strong>Apple Watch</strong></span>」というキャンパスで絵を描いてみませんか</p>
+                    </section>
+                </section>
+            </details>
+        </div>
+        <p id="about_bottom">開発へ至った経緯は <a href="">アプリ情報</a> 内のメッセージに詳しく記載しています。ぜひご覧ください。</p>
+    </section>
+
+    <section class="feature">
+        <h3 class="title">特徴</h3>
+        <h4>ズーム、そしてパン移動。</h4>
+        <p>Drawing Watchでは、Apple Watch上で絵を描くことのできるアプリとして初めて、<span>キャンパスのズームとパン移動に対応</span>し、大きなキャンパス上に細かく描き込むことを可能にしました。</p>
+        <h4>線のカラー変更で印象的な線画へ。</h4>
+        <p>描画する線のカラー変更に対応しました。
+            <br>好きな色で、作品の印象を大きく変えることができます。
+            <br>※塗り機能はアップデートにて対応予定です。しばらくお待ちください。
+        </p>
+        <h4>iPhoneとApple Watchの連携</h4>
+        <p>Drawing Watchの最大とも言える特徴は「<span class="marker">iPhoneにもアプリがある</span>」ということです。</p>
+        <h5>iPhoneでの作品管理</h5>
+        <p>Apple Watchで制作した作品はiPhoneのDrawing Watchアプリに送信後、「ギャラリー」にて、作品名の変更や大きな画面での詳細表示、PNGとSVGへの書き出しが行えます。
+            <br>ほぼ全てのサービスがサポートしているPNGと、大きく表示する際に求められるSVGへの書き出しに対応しているので、<span class="marker">Apple Watchで制作した作品を、その手首から世界へと公開する</span>ことすらも可能なのです。
+            <br>また、「バックアップ」機能で全作品をjsonファイルで書き出し、外部の安全なストレージに保存することもできます。
+            <br>（開発者は参加している同人誌の作品をこのアプリを用いて制作していたところ、誤ってデータを全消去してしまい絶望しました。バックアップはしっかりと！！！！）
+        </p>
+        <div class="accordions">
+            <details class="accordion">
+                <summary class="accordion_title">
+                    <span class="accordion_icon" aria-hidden="true"></span>
+                    <h3>もっと詳しく</h3>
+                </summary>
+                <section class="accordion_body">
+                    <section id="accordion_content flow">
+                        <h4 class="details_subtitle">図形の描画</h4>
+                <p class="details_p">Drawing Watchでは、綺麗な長方形と円を簡単に描画することができます。</p>
+                <h4 class="details_subtitle">複数の作品を同時に制作</h4>
+                <p class="details_p">あなたのストレージが許す限り、<strong>過去の全ての作品を再編集することが可能</strong>です。
+                    <br>アナログや一部のイラスト制作ソフトとは異なり、「一度描いたら描き直せない」というプレッシャーに犯されることなく快適に制作し、何度でも、いつまでも、あなたの作品を修正することができます。
+                </p>
+                    </section>
+                </section>
+            </details>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer_sec">
+            <div class="footer_logo_name">
+                <img src="Drawing_Watch-icon_1024.png" id="footer_logo">
+                <h3 id="footer_name">Drawing Watch</h3>
+            </div>
+            <div class="footer-menu">
+                <ul class="footer-link">
+                    <li class="footer-item"><a href="">トップ</a></li>
+                    <li class="footer-item"><a href="">作例</a></li>
+                    <li class="footer-item"><a href="">プライバシーポリシー</a></li>
+                    <li class="footer-item"><a href="">お問い合わせ</a></li>
+                    <li class="footer-item"><a href="">よくあるご質問</a></li>
+                    <li class="footer-item"><a href="">アプリ情報</a></li>
+                    <li class="footer-item"><a href="">更新情報</a></li>
+                    <li class="footer-item"><a href=""></a></li><!-- あとでApp Storeのダウンロードボタンを埋め込む -->
+                </ul>
+            </div>
+            <div class="copyright">
+                <h3 id="kensho_right">© 2026 Kensho All rights reserved.</h3>
+                <p id="apple_right">iPhone, Apple Watch はApple Inc.の登録商標です。
+                    <br>iPhoneの商標は、アイホン株式会社のライセンスに基づき使用されています。</p>
+                <p id="donotcopy">当サイトに掲載されている記事・写真・図表などの無断転載・複製を禁じます。</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
