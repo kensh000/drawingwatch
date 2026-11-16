@@ -23,7 +23,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="AppleWatchで絵を描こう!&ensp;AppleWatchお絵描きアプリ「Drawing Watch」公式サイト">
-    <title>Drawing Watch</title>
+    <title>Drawing Watch - AppleWatchお絵描きアプリ</title>
     <link rel="stylesheet" href="main.css">
     <script src="main.js"></script>
     <!-- favicon, Apple-Touch-Icon -->
@@ -42,10 +42,33 @@
 </head>
 <body>
     <header class="header">
+        <!-- ロゴ -->
         <div id="header_logo_a"><a href="index.html" id="header_logo_a">
             <img src="Drawing_Watch-icon_1024.png" id="header_logo">
             <h3 id="header_name">Drawing Watch</h3>
         </a></div>
+
+        <!-- 言語メニュー -->
+        <button class="language-button" type="button" aria-label="Select language" aria-expanded="false">
+            <svg xmlns="http://www.w3.org/2000/svg"
+                width="23" height="23" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor"
+                stroke-width="1.7" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M2 12h20"/>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10
+                        15.3 15.3 0 0 1-4 10
+                        15.3 15.3 0 0 1-4-10
+                        15.3 15.3 0 0 1 4-10z"/>
+            </svg>
+        </button>
+        <div class="language-menu" id="language-menu" hidden>
+            <a href="index.html" lang="ja">日本語</a>
+            <a href="en/index_en.html" lang="en">English</a>
+        </div>
+
+        <!-- ハンバーガーメニュー -->
         <div class="hamberger_menu">
             <input id="hamberger_input" class="hamberger_hid" type="checkbox">
             <label for="hamberger_input" class="hamberger_open"><span></span></label>

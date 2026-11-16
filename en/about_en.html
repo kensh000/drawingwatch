@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Information - Drawing Watch</title>
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="../about.css">
+    <script src="../main.js"></script>
+    <!-- favicon, Apple-Touch-Icon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="../Drawing_Watch-icon_180.png">
+        <link rel="icon" href="../favicon.ico">
+    
+    <!-- Google fontより Libre Baskerville。製作者様本当にありがとうございます。 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Rock+3D&family=Shippori+Mincho+B1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <!-- ロゴ -->
+        <div id="header_logo_a"><a href="index_en.html" id="header_logo_a">
+            <img src="../Drawing_Watch-icon_1024.png" id="header_logo">
+            <h3 id="header_name">Drawing Watch</h3>
+        </a></div>
+
+        <h3 id="header_about">- App Information</h3>
+
+        <!-- 言語メニュー -->
+        <button class="language-button" type="button" aria-label="Select language" aria-expanded="false">
+            <svg xmlns="http://www.w3.org/2000/svg"
+                width="23" height="23" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor"
+                stroke-width="1.7" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M2 12h20"/>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10
+                        15.3 15.3 0 0 1-4 10
+                        15.3 15.3 0 0 1-4-10
+                        15.3 15.3 0 0 1 4-10z"/>
+            </svg>
+        </button>
+        <div class="language-menu" id="language-menu" hidden>
+            <a href="../about.html" lang="ja">日本語</a>
+            <a href="about_en.html" lang="en">English</a>
+        </div>
+
+        <!-- ハンバーガーメニュー -->
+        <div class="hamberger_menu">
+            <input id="hamberger_input" class="hamberger_hid" type="checkbox">
+            <label for="hamberger_input" class="hamberger_open"><span></span></label>
+        </div>
+    </header>
+
+    <nav class="menu_nav" id="side_menu">
+                <!-- ハンバーガメニュー -->
+                <ul class="menu-group">
+                    <!-- URL指定忘れずに -->
+                    <li class="menu-item" id="menu_top"><a href="index_en.html">TOP</a></li>
+                    <li class="menu-item"><a href="example_en.html">Example</a></li>
+                    <li class="menu-item"><a href="privacypolicy_en.html">Privacy Policy</a></li>
+                    <li class="menu-item"><a href="contact_en.html">Contact</a></li>
+                    <li class="menu-item"><a href="faq_en.html">FAQ</a></li>
+                    <li class="menu-item"><a href="about_en.html">App Information</a></li>
+                    <li class="menu-item"><a href="update_en.html">Update</a></li>
+                    <li class="menu-item"><a href=""></a></li>  <!-- あとでApp Storeのダウンロードボタンを埋め込む -->
+                </ul>
+            </nav>
+
+    <section class="about_top">
+        <h4 class="title">App Information</h4>
+        <p>Here, you can find information about Drawing Watch, along with massages from developer.</p>
+    </section>
+
+    <section id="about_table">
+        <table>
+            <tbody>
+                <tr id="table_top">
+                    <td>Name</td>
+                    <td>Drawing Watch</td>
+                </tr>
+                <tr>
+                    <td>Supported OS</td>
+                    <td>An iPhone running iOS 26.0 or later<br>An AppleWatch runnning watchOS 26.0 or later<br>*This App isn't specifically optimized for iPhone Duo. The app will function normally, but some elements of the in-app UI mey be difficult to use. Thank you for your understanding.</td>
+                </tr>
+                <tr>
+                    <td>Latest Version</td>
+                    <td>Stay tuned for the release of Drawing Watch!</td>
+                </tr>
+                <tr id="tale_bottom">
+                    <td>Developer</td>
+                    <td>Kensho</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="message">
+        <h4>A Message from the Developer</h4>
+        <p>Hello! I'm Kensho, the developer of Drawing Watch.</p>
+        <p>"Drawing Watch" is the first app I've developed with the intention of releasing it to the public.
+            <br>The idea behind this app came from a rather unusual motivation: I wanted to take on elementary school kids who draw with their fingers on smartphones.</p>
+        <p>One day, while browsing Twitter, I came across a drawing of a person.
+            <br>"What an amazing illustration! I have to follow this artist!" I thought. But when I checked their profile... I saw the words "elementary school student" and "finger drawing on a smartphone."
+            <br>Even now, I still can't find the words to describe the shock I felt at that moment.
+            <br>Back then, I couldn't even draw people myself, which probably made the shock all the greater.</p>
+        <p>Although I couldn't draw people, I was able to draw cityscapes and landscapes, so I was part of an illustration community. When I brought this up in that community, someone simply replied:
+            <br>"Oh, you mean those kids who draw with their fingers on smartphones. Yeah, there are quite a few of them. (*In Japan)"</p>
+        <p>Drawing people with nothing but their fingers on a tiny smartphone screen. And they're elementary school students, too.
+            <br>Then, I understood that I'm really nothing special -just an ordinary person.</p>
+        <p>But I didn't give up.
+            <br>To give up is to admit defeat.</p>
+        <p> Was there any way I could possibly compete with these prodigies?</p>
+        <p>After thinking about it for several years, I finally arrived at an answer.</p>
+        <p>"<span id="message_strong">I just need to beat them with hardware.</span>"</p>
+        <p>Yeah. The world is surprisingly simple.
+            <br>There's absolutely no way I can win when it comes to age.
+            <br>But what if I used even smaller hardware?
+            <br>This. This is <span class="marker">THE LAST WAY against elementary school kids who draw with their fingers on smartphones</span>.
+            <br>Of course, I'd still need to produce artwork of a comparable quality. But that shouldn't be a problem with enough practice.</p>
+        <p>I started looking for a device smaller than a smartphone, yet equipped with a touchscreen of comparable quality.
+            <br>And then I noticed something.
+            <br>Wait a minute... I already have an AppleWatch right here on my wrist!</p>
+        <p>Why not just draw on that?
+            <br>That was my idea.</p>
+        <p>However, there were few drawing apps for AppleWatch, and none of them quite met my expectations.
+            <br>Then why not make one myself?
+            And that's how Drawing Watch was born.</p>
+        <p>I had four goals in developing Drawing Watch:
+            <br>1.To provide an exceptionally comfortable drawing experience that never gets in the way of your creative flow.
+            <br>2.To allow finished artwork to be exported at a sufficiently high resolution.
+            <br>3.To make it possible to create artwork of outstanding quality -even good enough for use in Doujinshi.
+            <br>4.To be able to compete with elementary school kids who draw with their fingers on smarphones.
+        </p>
+        <p>Development continued, and then came August 2026.
+            <br>The journey was anything but smooth. I accidentaly deleted all my artwork data at one point, and my development Mac was left with just 0.6GB of storage space, among other mishaps.</p>
+        <p>Nevertheless, <b>I managed to submit a artwork created with Drawing Watch to a collaborative Doujinshi I was participating in </b>.
+            <br>What started as a completely outlandish idea had finally become something real: an app that was genuinely useful.</p>
+        <p><b>And soon, Drawing Watch will be available for everyone to use.</b></p> <!-- 公開後に過去形にするのを忘れずに -->
+        <p id="about_copy_parent_pc"><span class="marker" id="about_copy_en">Draw on Your Wrist.</span></p>
+        <p id="about_copy_parent_phone"><span class="marker" id="about_copy_en">Draw on Your Wrist.</span></p>
+        <div id="message_name_div_en">
+            <p class="message_name_en">Kensho</p>
+            <p class="message_name_en">Developer of Drawing Watch</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer_sec">
+            <div class="footer_logo_name">
+                <img src="../Drawing_Watch-icon_1024.png" id="footer_logo">
+                <h3 id="footer_name">Drawing Watch</h3>
+            </div>
+            <div class="footer-menu">
+                <ul class="footer-link">
+                    <li class="footer-item"><a href="index_en.html">TOP</a></li>
+                    <li class="footer-item"><a href="example_en.html">Example</a></li>
+                    <li class="footer-item"><a href="privacypolicy_en.html">Privacy Policy</a></li>
+                    <li class="footer-item"><a href="contact_en.html">Contact</a></li>
+                    <li class="footer-item"><a href="faq_en.html">FAQ</a></li>
+                    <li class="footer-item"><a href="about_en.html">App Information</a></li>
+                    <li class="footer-item"><a href="update_en.html">Update</a></li>
+                    <li class="footer-item"><a href=""></a></li><!-- あとでApp Storeのダウンロードボタンを埋め込む -->
+                </ul>
+            </div>
+            <div class="copyright">
+                <h3 id="kensho_right">© 2026 Kensho All rights reserved.</h3>
+                <p id="apple_right">iPhone, iPhone Duo, Apple Watch, Mac, and watchOS are trademarks of Apple Inc.
+                    <br>iOS is a trademark or registered trademark of Cisco in the U.S. and other countries and is used under license.</p>
+                <p id="donotcopy">Unauthorized reproduction, redistribution, or duplication of any articles, photographs, illustrations, or other content on this website is prohibited.</p>
+                <p id="donotcopy">I'm not very good at English, so if you spot any mistakes or awkward phrasing, feel free to let me know via the email address listed on the Contact page!</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

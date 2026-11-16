@@ -1,9 +1,18 @@
 @charset "UTF-8";
 
-#header_update{
+/* #header_update{
     height: clamp(50px, 7vh, 80px);
     line-height: clamp(42.85px, 6.2vh, 68.5px);
     padding-left: clamp(10px, 2vw, 30px);
+} */
+
+#header_update {
+    margin: 0;
+    padding: 0;
+    padding-left: clamp(10px, 2vw, 30px);
+    font-size: 2vh;
+    line-height: 1;
+    align-self: center;
 }
 
 @media screen and (max-width: 480px) {

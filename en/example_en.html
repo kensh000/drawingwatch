@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example - Drawing Watch</title>
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="../example.css">
+    <script src="../main.js"></script>
+    <!-- favicon, Apple-Touch-Icon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="../Drawing_Watch-icon_180.png">
+        <link rel="icon" href="../favicon.ico">
+</head>
+<body>
+    <header class="header">
+        <!-- ロゴ -->
+        <div id="header_logo_a"><a href="index_en.html" id="header_logo_a">
+            <img src="../Drawing_Watch-icon_1024.png" id="header_logo">
+            <h3 id="header_name">Drawing Watch</h3>
+        </a></div>
+    
+        <h3 id="header_example">- Example</h3>
+
+        <!-- 言語メニュー -->
+        <button class="language-button" type="button" aria-label="Select language" aria-expanded="false">
+            <svg xmlns="http://www.w3.org/2000/svg"
+                width="23" height="23" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor"
+                stroke-width="1.7" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M2 12h20"/>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10
+                        15.3 15.3 0 0 1-4 10
+                        15.3 15.3 0 0 1-4-10
+                        15.3 15.3 0 0 1 4-10z"/>
+            </svg>
+        </button>
+        <div class="language-menu" id="language-menu" hidden>
+            <a href="../example.html" lang="ja">日本語</a>
+            <a href="example_en.html" lang="en">English</a>
+        </div>
+
+        <!-- ハンバーガーメニュー -->
+        <div class="hamberger_menu">
+            <input id="hamberger_input" class="hamberger_hid" type="checkbox">
+            <label for="hamberger_input" class="hamberger_open"><span></span></label>
+        </div>
+    </header>
+
+    <nav class="menu_nav" id="side_menu">
+                <!-- ハンバーガメニュー -->
+                <ul class="menu-group">
+                    <!-- URL指定忘れずに -->
+                    <li class="menu-item" id="menu_top"><a href="index_en.html">TOP</a></li>
+                    <li class="menu-item"><a href="example_en.html">Example</a></li>
+                    <li class="menu-item"><a href="privacypolicy_en.html">Privacy Policy</a></li>
+                    <li class="menu-item"><a href="contact_en.html">Contact</a></li>
+                    <li class="menu-item"><a href="faq_en.html">FAQ</a></li>
+                    <li class="menu-item"><a href="about_en.html">App Information</a></li>
+                    <li class="menu-item"><a href="update_en.html">Update</a></li>
+                    <li class="menu-item"><a href=""></a></li>  <!-- あとでApp Storeのダウンロードボタンを埋め込む -->
+                </ul>
+            </nav>
+
+    <section>
+        <h4 class="title">Example</h4>
+        <p>We'll be featuring artwork created by Kensho, the developer of Drawing Watch, as well as artwork submitted by our users.
+            <br>(Updated regularly)</p>
+        <h5 id="comingsoon">Coming Soon!</h5>
+    </section>
+
+<!-- 公開までにはここ作ろう！（Drawing Watchのギャラリー画面に似ていたらちょっといいかな） -->
+
+    <section>
+        <h4 ><span class="marker" id="h4_marker">Want to See Your Artwork Featured Here?</span></h4>
+        <p>I'd love to feature your artwork on this page!</p>
+        <p>Simply send a PNG image of your artwork to the contact email address listed on  <a href="contact_en.html">Contact</a>  page, and let me know that you'd like it to be featured in the Examples section.</p>
+        <p>I look forward to seeing your creations!</p>
+        <p>Please keep the following points in mind when submitting artwork:</p>
+            <ul id="example_want_caution">
+                <li>Sublmitting artwork does not guarentee that it will be featured on this page.</li>
+                <li>When publishing your artwork on this website, I may convert the image to WebP or another format to reduce file size. This conversion may result in a slight loss of image quality compared to the original.</li>
+                <li>I reserve the right to determine how long submitted artwork remains featured in this page.</li>
+            </ul>
+    </section>
+
+    <footer class="footer">
+        <div class="footer_sec">
+            <div class="footer_logo_name">
+                <img src="../Drawing_Watch-icon_1024.png" id="footer_logo">
+                <h3 id="footer_name">Drawing Watch</h3>
+            </div>
+            <div class="footer-menu">
+                <ul class="footer-link">
+                    <li class="footer-item"><a href="index_en.html">TOP</a></li>
+                    <li class="footer-item"><a href="example_en.html">Example</a></li>
+                    <li class="footer-item"><a href="privacypolicy_en.html">Privacy Policy</a></li>
+                    <li class="footer-item"><a href="contact_en.html">Contact</a></li>
+                    <li class="footer-item"><a href="faq_en.html">FAQ</a></li>
+                    <li class="footer-item"><a href="about_en.html">App Information</a></li>
+                    <li class="footer-item"><a href="update_en.html">Update</a></li>
+                    <li class="footer-item"><a href=""></a></li><!-- あとでApp Storeのダウンロードボタンを埋め込む -->
+                </ul>
+            </div>
+            <div class="copyright">
+                <h3 id="kensho_right">© 2026 Kensho All rights reserved.</h3>
+                <p id="donotcopy">Unauthorized reproduction, redistribution, or duplication of any articles, photographs, illustrations, or other content on this website is prohibited.</p>
+                <p id="donotcopy">I'm not very good at English, so if you spot any mistakes or awkward phrasing, feel free to let me know via the email address listed on the Contact page!</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

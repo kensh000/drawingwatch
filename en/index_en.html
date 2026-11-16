@@ -1,0 +1,218 @@
+<!-- 
+
+Hey！
+I'm the developer of this app！
+I'm not goot at English, so if you find something wrong, please tell me！
+
+.-..-.
+`· .·´
+●/ ᵗᑋᵃᐢᵏ ᵞᵒᵘ
+/▌
+/ \
+
+-->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AppleWatchで絵を描こう!&ensp;AppleWatchお絵描きアプリ「Drawing Watch」公式サイト">
+    <title>Drawing Watch - Draw on your AppleWatch</title>
+    <link rel="stylesheet" href="../main.css">
+    <script src="../main.js"></script>
+    <!-- favicon, Apple-Touch-Icon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="../Drawing_Watch-icon_180.png">
+        <link rel="icon" href="../favicon.ico">
+        <link rel="icon" type="image/png" href="../Drawing_Watch-icon_180.png">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TBN8W9QC89"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-TBN8W9QC89');
+    </script>
+</head>
+<body>
+    <header class="header">
+        <!-- ロゴ -->
+        <div id="header_logo_a"><a href="index_en.html" id="header_logo_a">
+            <img src="../Drawing_Watch-icon_1024.png" id="header_logo">
+            <h3 id="header_name">Drawing Watch</h3>
+        </a></div>
+
+        <!-- 言語メニュー -->
+        <button class="language-button" type="button" aria-label="Select language" aria-expanded="false">
+            <svg xmlns="http://www.w3.org/2000/svg"
+                width="23" height="23" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor"
+                stroke-width="1.7" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M2 12h20"/>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10
+                        15.3 15.3 0 0 1-4 10
+                        15.3 15.3 0 0 1-4-10
+                        15.3 15.3 0 0 1 4-10z"/>
+            </svg>
+        </button>
+        <div class="language-menu" id="language-menu" hidden>
+            <a href="../index.html" lang="ja">日本語</a>
+            <a href="index_en.html" lang="en">English</a>
+        </div>
+
+        <!-- ハンバーガーメニュー -->
+        <div class="hamberger_menu">
+            <input id="hamberger_input" class="hamberger_hid" type="checkbox">
+            <label for="hamberger_input" class="hamberger_open"><span></span></label>
+        </div>
+    </header>
+
+    <nav class="menu_nav" id="side_menu">
+                <!-- ハンバーガメニュー -->
+                <ul class="menu-group">
+                    <!-- URL指定忘れずに -->
+                    <li class="menu-item" id="menu_top"><a href="index_en.html">TOP</a></li>
+                    <li class="menu-item"><a href="example_en.html">Example</a></li>
+                    <li class="menu-item"><a href="privacypolicy_en.html">Privacy Policy</a></li>
+                    <li class="menu-item"><a href="contact_en.html">Contact</a></li>
+                    <li class="menu-item"><a href="faq_en.html">FAQ</a></li>
+                    <li class="menu-item"><a href="about_en.html">App Information</a></li>
+                    <li class="menu-item"><a href="update_en.html">Update</a></li>
+                    <li class="menu-item"><a href=""></a></li>  <!-- あとでApp Storeのダウンロードボタンを埋め込む -->
+                </ul>
+            </nav>
+
+    <section class="hello">
+        <img src="../drawing_watch_PC_photo.png" id="top_photo_pc">
+        <img src="../drawing_watch_phone_photo.png" id="top_photo_phone">
+        <p id="imsorry">I'm sorry, but the English images are currently being prepared.</p>
+        <h1>Drawing Watch</h1>
+        <h3>Draw on Your Wrist</h3>
+        <h3 id="hello_bottom">A finger-drawing app for Apple Watch</h3>
+        <h4 id="pleasewait_index_1">Coming by the end of 2026, Free</h4>
+        <h4 id="pleasewait_index_2">Stay tuned!</h4>
+        <p id="pleasewait_index_2">Bookmark this website to keep up with the latest news!</p>
+    </section>
+
+    <section class="about">
+        <h3 class="title">What is Drawing Watch?</h3>
+        <p>Drawing Watch is a finger-drawing app for Apple Watch, created with the goal of making it possible to create<strong> doujinshi-level artwork </strong>right on your Apple Watch.</p>
+        <div class="accordions">
+            <details class="accordion" id="about_closely">
+                <summary class="accordion_title">
+                    <span class="accordion_icon" aria-hidden="true"></span>
+                    <h3>Learn More</h3>
+                </summary>
+                <section class="accordion_body">
+                    <section id="accordion_content flow">
+                        <h4 class="details_subtitle">Our Philosophy</h4>
+                        <p class="details_p">Drawing Watch is built around three core ideas.</p>
+                        <ul>
+                            <li class="details_p">Preventing creative inspiration from being lost simply because the right tools aren't at hand.</li>
+                            <li class="details_p">Providing an incredibly comfortable UX that never gets in the way of your creative flow.</li>
+                            <li class="details_p">Giving you a way to physically challenge elementary school students who draw with their fingers on smartphones.</li>
+                        </ul>
+                        <h4 class="details_subtitle">Never Let Your Inspiration Fade Away</h4>
+                        <p class="details_p">I believe that <span class="marker">creative inspiration can strike at any moment</span>.</p>
+                        <p class="details_p">But have you ever had a great idea disappear simply because you didn't have your iPad or pen display nearby? Or because turning on your drawing device felt like too much effort? Maybe even starting up your smartphone seemed like a hassle.</p>
+                        <p class="details_p">If that inspiration hadn't faded away, you might have created something wonderful.</p>
+                        <p class="details_p">That's why I turned my attention to the Apple Watch, a device that most of us wear for almost the entire day.</p>
+                        <p class="details_p">If you can draw on this device, it can be there to capture your creative inspiration wherever you are - even when you're sitting on the toilet.</p>
+                        <h4 class="details_subtitle">An Interface That Never Gets in the Way</h4>
+                        <p class="details_p">No matter how wonderful your inspiration may be, what happens if the tools you use to draw are frustrating?</p>
+                        <p class="details_p">Well, you'd probably end up giving up on drawing.</p>
+                        <p class="details_p">That's why Drawing Watch pushes usability to its limits, even within the tiny screen of an Apple Watch.</p>
+                        <p class="details_p">I'll introduce the features that make this possible later on.</p>
+                        <h4 class="details_subtitle">A Way to Challenge Elementary School Smartphone Finger-Artists</h4>
+                        <p class="details_p">In recent years, a curious group of artists has emerged on platforms such as X (formerly Twitter): elementary school students who create digital art using nothing but their smartphones and fingers.</p>
+                        <p class="details_p">They're incredibly young, yet they produce remarkably sophisticated digital illustrations - so good that I can't help feeling jealous.</p>
+                        <p class="details_p">Even if we tried to compete with them under the same conditions, there's one thing we could never beat them at: age.</p>
+                        <p class="details_p">So, what's the one thing we can compete with them on?</p>
+                        <p class="details_p">That's right. <span class="marker"><b>Hardware</b></span>.</p>
+                        <p class="details_p">Why not try drawing on a canvas that's no larger than 49mm - an <span class="marker">Apple Watch</span>?</p>                    </section>
+                </section>
+            </details>
+        </div>
+        <p id="about_bottom">For more about how I came up with this idea and started developing the app, check out the message from the developer on the <a href="about_en.html">App Information</a> page. I hope you'll give it a read!</p>
+    </section>
+
+    <section class="feature">
+        <h3 class="title">Features</h3>
+        <h4>Zoom and Pan</h4>
+        <p>Drawing Watch is the first app for drawing directly on Apple Watch to support canvas zooming and panning.<sup>*1</sup></p>
+        <p>This allows you to work on a large canvas and add fine details, even on the tiny screen of your Apple Watch.</p>
+        <h4>Change Line Colors to Create Striking Line Art</h4>
+        <p>Drawing Watch lets you change the color of your strokes.</p>
+        <p>Use your favorite colors to completely transform the look and feel of your artwork.</p>
+        <p>(Fill tools are planned for a future update. Please stay tuned!)</p>
+        <h4>iPhone and Apple Watch Working Together</h4>
+        <p>Perhaps the biggest feature of Drawing Watch is that <span class="marker">there's an iPhone app, too!</span></p>
+        <h5>Manage Your Artwork on iPhone</h5>
+        <p>Once your artwork is transferred from your Apple Watch to the Drawing Watch app on your iPhone, you can manage it in the Gallery.</p>
+        <p>There, you can:</p>
+        <ul>
+            <li>Change artwork titles</li>
+            <li>View your artwork in detail on a larger screen</li>
+            <li>Export your artwork as PNG or SVG files</li>
+            <li>Back up your artwork</li>
+        </ul>
+        <p>PNG is supported by almost every service out there, while SVG lets you display your artwork at large sizes without losing image quality.</p>
+        <p>This means <span class="marker">you can take artwork created on your Apple Watch and share it with the world - straight from your wrist!</span></p>
+        <p>You can also use the Backup feature to export all your artwork as a JSON file and store it somewhere safe, such as external storage.</p>
+        <p>(While working on an artwork for a doujinshi I was participating in, I accidentally deleted all my data and was devastated. PLEASE, PLEASE BACK UP YOUR ARTWORK!!!!)</p>
+        <div class="accordions">
+            <details class="accordion">
+                <summary class="accordion_title">
+                    <span class="accordion_icon" aria-hidden="true"></span>
+                    <h3>Learn More</h3>
+                </summary>
+                <section class="accordion_body">
+                    <section id="accordion_content flow">
+                        <h4 class="details_subtitle">Drawing Shapes</h4>
+                <p class="details_p">Drawing Watch makes it easy to draw clean rectangles and circles.</p>
+                <h4 class="details_subtitle">Work on Multiple Pieces at Once</h4>
+                <p class="details_p">As long as you have enough storage space, <strong>you can keep editing all your previous artwork</strong>.</p>
+                <p class="details_p">Unlike traditional art tools and some illustration software, you don't have to worry about the pressure of "getting it right the first time."</p>
+                <p class="details_p">Create freely, make changes whenever you like, and keep refining your artwork for as long as you want.</p>
+                    </section>
+                </section>
+            </details>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer_sec">
+            <div class="footer_logo_name">
+                <img src="../Drawing_Watch-icon_1024.png" id="footer_logo">
+                <h3 id="footer_name">Drawing Watch</h3>
+            </div>
+            <div class="footer-menu">
+                <ul class="footer-link">
+                    <li class="footer-item"><a href="index_en.html">TOP</a></li>
+                    <li class="footer-item"><a href="example_en.html">Example</a></li>
+                    <li class="footer-item"><a href="privacypolicy_en.html">Privacy Policy</a></li>
+                    <li class="footer-item"><a href="contact_en.html">Contact</a></li>
+                    <li class="footer-item"><a href="faq_en.html">FAQ</a></li>
+                    <li class="footer-item"><a href="about_en.html">App Information</a></li>
+                    <li class="footer-item"><a href="update_en.html">Update</a></li>
+                    <li class="footer-item"><a href=""></a></li><!-- あとでApp Storeのダウンロードボタンを埋め込む -->
+                </ul>
+            </div>
+            <div class="copyright">
+                <h3 id="kensho_right">© 2026 Kensho All rights reserved.</h3>
+                <p id="apple_right">*1:As of November 2026, according to Kensho.</p>
+                <p id="apple_right">iPhone, iPhone Duo, Apple Watch, Mac, and watchOS are trademarks of Apple Inc.
+                    <br>iOS is a trademark or registered trademark of Cisco in the U.S. and other countries and is used under license.</p>
+                <p id="donotcopy">Unauthorized reproduction, redistribution, or duplication of any articles, photographs, illustrations, or other content on this website is prohibited.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -27,3 +27,37 @@ window.addEventListener('scroll', function() {
         }
     });
 });
+
+
+// 言語切り替えメニュー
+document.addEventListener("DOMContentLoaded", () => {
+    const button = document.querySelector(".language-button");
+    const menu = document.querySelector(".language-menu");
+
+    if (!button || !menu) return;
+
+    // ボタンをクリックしたとき
+    button.addEventListener("click", (event) => {
+        event.stopPropagation();
+
+        menu.hidden = !menu.hidden;
+        button.setAttribute("aria-expanded", String(!menu.hidden));
+    });
+
+    // メニューの外側をクリックしたとき
+    document.addEventListener("click", (event) => {
+        if (!event.target.closest(".language-menu") &&
+            !event.target.closest(".language-button")) {
+            menu.hidden = true;
+            button.setAttribute("aria-expanded", "false");
+        }
+    });
+
+    // Escキーを押したとき
+    document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape") {
+            menu.hidden = true;
+            button.setAttribute("aria-expanded", "false");
+        }
+    });
+});

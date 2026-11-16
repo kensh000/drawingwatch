@@ -10,6 +10,13 @@ a{
     all: unset;
 }
 
+p a{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-style: solid;
+    text-underline-offset: 2px;
+}
+
 section:not([class="header"]):not([class="hello"]):not([class="accordion_body"]):not([class="footer"]){
     margin-left: 3vw;
     margin-right: 3vw;
@@ -124,6 +131,58 @@ strong{
 #header_name{
     font-size: 3vh;
     padding-top: 0.3vh;
+}
+
+/* 言語切り替え */
+.language-button {
+    margin-left: auto;
+    margin-right: 65px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 40px;
+    height: 40px;
+
+    background: none;
+    border: none;
+    color: #333;
+    cursor: pointer;
+}
+
+.language-menu {
+    position: absolute;
+    top: calc(100% + 5px);
+    right: 65px;
+
+    min-width: 120px;
+
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    z-index: 1001;
+}
+
+.language-menu[hidden] {
+    display: none;
+}
+
+.language-menu a {
+    display: block;
+    padding: 12px 16px;
+
+    color: #333;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.language-menu a:hover {
+    background-color: rgba(0, 0, 0, 0.08);
 }
 
 /* ハンバーガーメニュー ここから*/
@@ -511,3 +570,11 @@ footer{
     color: gray;
 }
 /* footerここまで */
+
+#imsorry{
+    padding: 0;
+    padding-top: 1vh;
+    font-size: clamp(8px, 0.8vw, 1.2vh);
+    color: gray;
+    margin-bottom: 0.5vh;
+}

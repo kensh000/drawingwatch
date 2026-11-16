@@ -1,9 +1,18 @@
 @charset "UTF-8";
 
-#header_about{
+/* #header_about{
     height: clamp(50px, 7vh, 80px);
     line-height: clamp(42.85px, 6.2vh, 68.5px);
     padding-left: clamp(10px, 2vw, 30px);
+} */
+
+#header_about {
+    margin: 0;
+    padding: 0;
+    padding-left: clamp(10px, 2vw, 30px);
+    font-size: 2vh;
+    line-height: 1;
+    align-self: center;
 }
 
 @media screen and (max-width: 480px) {
@@ -63,10 +72,20 @@ table{
     font-size: clamp(18px, 2.2vw, 26px);
 }
 
+.message_name_en{
+    font-weight: bold;
+    font-size: clamp(18px, 2.2vw, 26px);
+}
+
 #message_name_div{
     padding-right: 3vw;
     padding-top: clamp(10px, 1.5vh, 2vw);
     padding-bottom: clamp(10px, 1.5vh, 2vw);
+}
+
+#message_name_div_en{
+    padding-top: clamp(10px, 1.5vh, 2vw);
+    padding-bottom: clamp(30px, 6vh, 10vw);
 }
 
 #about_copy_parent_pc,
@@ -78,6 +97,15 @@ table{
 #about_copy{
     padding-top: clamp(20px, 3vh, 4vw);
     font-family: "Shippori Mincho B1", "Hiragino Mincho ProN", YuMincho, serif;
+    font-weight: 800;
+    font-size: clamp(24px, 2.4vw, 60px);
+    font-style: normal;
+    background-size: 0% 15%;
+}
+
+#about_copy_en{
+    padding-top: clamp(20px, 5vh, 5vw);
+    font-family: "Libre Baskerville", "Times New Roman", serif;
     font-weight: 800;
     font-size: clamp(24px, 2.4vw, 60px);
     font-style: normal;
