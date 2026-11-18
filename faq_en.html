@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - Drawing Watch</title>
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="../faq.css">
+    <script src="../main.js"></script>
+    <!-- favicon, Apple-Touch-Icon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="../Drawing_Watch-icon_180.png">
+        <link rel="icon" href="../favicon.ico">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TBN8W9QC89"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-TBN8W9QC89');
+    </script>
+</head>
+<body>
+    <header class="header">
+        <!-- ロゴ -->
+        <div id="header_logo_a"><a href="index_en.html" id="header_logo_a">
+            <img src="../Drawing_Watch-icon_1024.png" id="header_logo">
+            <h3 id="header_name">Drawing Watch</h3>
+        </a></div>
+
+        <h3 id="header_faq">- FAQ</h3>
+
+        <!-- 言語メニュー -->
+        <button class="language-button" type="button" aria-label="Select language" aria-expanded="false">
+            <svg xmlns="http://www.w3.org/2000/svg"
+                width="23" height="23" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor"
+                stroke-width="1.7" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M2 12h20"/>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10
+                        15.3 15.3 0 0 1-4 10
+                        15.3 15.3 0 0 1-4-10
+                        15.3 15.3 0 0 1 4-10z"/>
+            </svg>
+        </button>
+        <div class="language-menu" id="language-menu" hidden>
+            <a href="../faq.html" lang="ja">日本語</a>
+            <a href="faq_en.html" lang="en">English</a>
+        </div>
+
+        <!-- ハンバーガーメニュー -->
+        <div class="hamberger_menu">
+            <input id="hamberger_input" class="hamberger_hid" type="checkbox">
+            <label for="hamberger_input" class="hamberger_open"><span></span></label>
+        </div>
+    </header>
+
+    <nav class="menu_nav" id="side_menu">
+                <!-- ハンバーガメニュー -->
+                <ul class="menu-group">
+                    <!-- URL指定忘れずに -->
+                    <li class="menu-item" id="menu_top"><a href="index_en.html">TOP</a></li>
+                    <li class="menu-item"><a href="example_en.html">Example</a></li>
+                    <li class="menu-item"><a href="privacypolicy_en.html">Privacy Policy</a></li>
+                    <li class="menu-item"><a href="contact_en.html">Contact</a></li>
+                    <li class="menu-item"><a href="faq_en.html">FAQ</a></li>
+                    <li class="menu-item"><a href="about_en.html">App Information</a></li>
+                    <li class="menu-item"><a href="update_en.html">Update</a></li>
+                    <li class="menu-item"><a href=""></a></li>  <!-- あとでApp Storeのダウンロードボタンを埋め込む -->
+                </ul>
+            </nav>
+
+    <section class="faq_top">
+        <h4 class="title">Frequently Asked Questions</h4>
+        <p>Have a question? Start here! This page covers some of the questions you might have about Drawing Watch.</p>
+    </section>
+
+    <section class="faq">
+
+        <h5>For Those Considering Installing the App</h5>
+         <div class="accordions">
+            <details class="accordion">
+                <summary class="accordion_title">
+                    <span class="accordion_icon" aria-hidden="true"></span>
+                    <h3 class="faq_subtitle">When will the app be released?</h3>
+                </summary>
+                <section class="accordion_body">
+                    <section id="accordion_content flow">
+                        <p class="details_p">The exact release date has not yet been decided, but development is currently aiming for release. In any case, the app is expected to be released by the end of 2026 at the latest.</p>
+                    </section>
+                </section>
+            </details>
+        </div>
+
+        <div class="accordions">
+            <details class="accordion">
+                <summary class="accordion_title">
+                    <span class="accordion_icon" aria-hidden="true"></span>
+                    <h3 class="faq_subtitle">What are the benefits of using this app?</h3>
+                </summary>
+                <section class="accordion_body">
+                    <section id="accordion_content flow">
+                        <p class="details_p">Here are some of the benefits I, the developer, see in this app:</p>
+                        <ul class="faq_ul">
+                            <li class="faq_li">You can challenge young children who draw with their fingers on smartphones ti a hardware showdown.</li>
+                            <li class="faq_li">You can proudly say, "I drew this on my Apple Watch!"</li>
+                            <li class="faq_li">You can draw anywhere, as long as you have an Apple Watch on your wrist.</li>
+                            <li class="faq_li">Your eye for balance in your artwork will become unbelievably good (based on my personal experience).</li>
+                            <li class="faq_li">It's a great way to take a break and refresh your mind.</li>
+                            <li class="faq_li">You can draw wherever you are.</li>
+                        </ul>
+                    </section>
+                </section>
+            </details>
+        </div>
+
+        <div class="accordions">
+            <details class="accordion">
+                <summary class="accordion_title">
+                    <span class="accordion_icon" aria-hidden="true"></span>
+                    <h3 class="faq_subtitle">How long does it take to master the app?</h3>
+                </summary>
+                <section class="accordion_body">
+                    <section id="accordion_content flow">
+                        <p class="details_p">I think the time required varies greatly from person to person, depending on their existing drawing skills and experience.</p>
+                        <p class="details_p">In my case, it took:</p>
+                        <ul class="faq_ul">
+                            <li class="faq_li">10 minutes to become able to draw reasonably straight lines.</li>
+                            <li class="faq_li">3 hours to operate the app without having to think about the controls.</li>
+                            <li class="faq_li">Half a day to create artwork that was at least presentable.</li>
+                            <li class="faq_li">2 weeks (practicing for about an hour a day) to create artwork that I could genuinely call decent.</li>
+                            <li class="faq_li">It's been about 3 months since testing began, but I still haven't reached the level of an iPad or a pen display.</li>
+                            <li class="faq_li">I have never tried drawing with my finger on a smartphone. If you're already used to finger drawing, you may be able to master the app more quickly.</li>
+                        </ul>
+                    </section>
+                </section>
+            </details>
+        </div>
+
+        <div class="accordions">
+            <details class="accordion">
+                <summary class="accordion_title">
+                    <span class="accordion_icon" aria-hidden="true"></span>
+                    <h3 class="faq_subtitle">Which devices are supported?</h3>
+                </summary>
+                <section class="accordion_body">
+                    <section id="accordion_content flow">
+                        <p class="details_p">Drawing Watch supports iPhones running iOS 26 or later and Apple Watches running watchOS 26 or later.
+                            <br>iPhone models compatible with iOS 26:：</p>
+                        <ul class="faq_ul">
+                            <li class="faq_li">iPhone11 or later</li>
+                            <li class="faq_li">iPhone SE（2nd gen）or later</li>
+                            <li class="faq_li">iPhone Air</li>
+                            <li class="faq_li">iPhone Duo（iOS 27 or later）<sup>*</sup></li>
+                        </ul>
+                        <p class="details_p">Apple Watch models compatible with watchOS 26<sup>*</sup>:</p>
+                        <ul class="faq_ul">
+                            <li class="faq_li">Apple Watch Series6 or later</li>
+                            <li class="faq_li">Apple Watch SE (2nd gen) or later</li>
+                            <li class="faq_li">Apple Watch Ultra or later</li>
+                        </ul>
+                        <p class="details_p">* The initial version will not be optimized for iPhone Duo.
+                            <br>* Installing watchOS 26 requires an iPhone running iOS 26.
+                        </p>
+                        <p class="details_p">To everyone who has managed to get their hands on an iPhone Duo:
+                            <br>please look forward to future updates. I want iPhone Duo too.
+                        </p>
+                    </section>
+                </section>
+            </details>
+        </div>
+
+        <div class="accordions">
+            <details class="accordion">
+                <summary class="accordion_title">
+                    <span class="accordion_icon" aria-hidden="true"></span>
+                    <h3 class="faq_subtitle">Does it matter which wrist I wear my Apple Watch on?</h3>
+                </summary>
+                <section class="accordion_body">
+                    <section id="accordion_content flow">
+                        <p class="details_p">The UI, especially on the Apple Watch, is designed to be comfortable to use regardless of which wrist you wear your watch on.</p>
+                        <p class="details_p">As long as you wear your Apple Watch in a way that allows you to operate the Digital Crown naturally, you should have no trouble using the app.</p>
+                        <p class="details_p">I'm also planning to add an option to switch the toolbar layout between left- and right-handed orientations in a future update.</p>
+                        <p class="details_p">So feel free to use Drawing Watch on either wrist!</p>
+                    </section>
+                </section>
+            </details>
+        </div>
+
+        <div class="accordions">
+            <details class="accordion">
+                <summary class="accordion_title">
+                    <span class="accordion_icon" aria-hidden="true"></span>
+                    <h3 class="faq_subtitle">Can I install and use the app on my Apple Watch only?</h3>
+                </summary>
+                <section class="accordion_body">
+                    <section id="accordion_content flow">
+                        <p class="details_p">I wouldn't recommend instaalling the app on your Apple Watch alone.</p>
+                        <p class="details_p">The biggest appeal of Drawing Watch is the way it works together with your Apple Watch and iPhone. Installing the app on both devices allows you to get the most out of it.</p>
+                        <p class="details_p">If you install the app only on your Apple Watch, you can still draw, but that's all. You won't be able to use features such as exporting artwork, changing titles, or viewing your artwork on a larger screen.</p>
+                    </section>
+                </section>
+            </details>
+        </div>
+        
+        <div class="accordions">
+            <details class="accordion">
+                <summary class="accordion_title">
+                    <span class="accordion_icon" aria-hidden="true"></span>
+                    <h3 class="faq_subtitle">Can I draw without having my iPhone with me?</h3>
+                </summary>
+                <section class="accordion_body">
+                    <section id="accordion_content flow">
+                        <p class="details_p">Of course!</p>
+                        <p class="details_p">Your iPhone and Apple Watch need to be paired only when transferring artwork between them. Creating new artwork and drawing on your Apple Watch, as well as using the gallery on your iPhone (including backups, exporting, zooming in on artwork, and changing titles), all work completely offline.</p>
+                        <p class="details_p">As long as you have your Apple Watch with you, you can enjoy creating art wherever you go!</p>
+                    </section>
+                </section>
+            </details>
+        </div>
+
+        <div class="accordions">
+            <details class="accordion">
+                <summary class="accordion_title">
+                    <span class="accordion_icon" aria-hidden="true"></span>
+                    <h3 class="faq_subtitle">Will my artwork ever be deleated?</h3>
+                </summary>
+                <section class="accordion_body">
+                    <section id="accordion_content flow">
+                        <p class="details_p">In general, your artwork should remain safe as long as you don't uninstall the apps from both your iPhone and Apple Watch.</p>
+                        <p class="details_p">However, unexpected things can happen, such as a malfunction that forces the app to reset. That's why I've included backup features that let you save your artwork to external storage or cloud services.</p>
+                        <p class="details_p"><b>Please, please make sure to back up your artwork regularly!</b> I once accidentally deleted all my data while testing the app.</p>
+                    </section>
+                </section>
+            </details>
+        </div>
+
+        <div class="accordions">
+            <details class="accordion">
+                <summary class="accordion_title">
+                    <span class="accordion_icon" aria-hidden="true"></span>
+                    <h3 class="faq_subtitle">Can I post my artwork on social media?</h3>
+                </summary>
+                <section class="accordion_body">
+                    <section id="accordion_content flow">
+                        <p class="details_p">Absolutely! Please do! I think it's wonderful to see the world filled with creative works.</p>
+                        <p class="details_p">When posting your artwork, I'd be delighted if you could include a link to this website (https://kensh000.github.io/drawingwatch/en/index_en.html) and mention that you drew it on an Apple Watch!</p>
+                        <p class="details_p">However, please make sure that your artwork does not violate any laws or the terms of service of the platform you're posting on, and that it respects the rights of others and relevant ethical considerations. If your artwork raises any such concerns, please refrain from posting it.</p>
+                    </section>
+                </section>
+            </details>
+        </div>
+
+        <!-- 公開したら必ずコメントアウト解除！ htmlをわざわざみているあなたには特別にお見せします。
+
+        <h5>ご利用いただいている方向け</h5>
+
+        <div class="accordions">
+            <details class="accordion">
+                <summary class="accordion_title">
+                    <span class="accordion_icon" aria-hidden="true"></span>
+                    <h3 class="faq_subtitle">操作方法がわかりません</h3>
+                </summary>
+                <section class="accordion_body">
+                    <section id="accordion_content flow">
+                        <p class="details_p">iPhoneのDrawing Watch App内に「ヘルプ」というタブがございます。そちらをご覧ください。
+                            <br>なお、それでもご不明な点がございましたら <a href="contact.html">お問い合わせ</a> に記載のメールアドレスご連絡ください。
+                        </p>
+                    </section>
+                </section>
+            </details>
+        </div>
+
+        <div class="accordions">
+            <details class="accordion">
+                <summary class="accordion_title">
+                    <span class="accordion_icon" aria-hidden="true"></span>
+                    <h3 class="faq_subtitle">Apple Watchのバッテリー消費が早いのですが</h3>
+                </summary>
+                <section class="accordion_body">
+                    <section id="accordion_content flow">
+                        <p class="details_p">Apple Watchでは、アプリの長時間操作はあまり想定されていません。
+                            <br>また、本アプリはグラフィック描画の関係上、消費電力が大きくなっております。
+                            <br>ただし、低電力モードでは画面のフレームレート低下が目立つ可能性があります。
+                            <br>現在省電力化を目指し改善中です。ご了承ください。
+                        </p>
+                    </section>
+                </section>
+            </details>
+        </div>
+
+        <div class="accordions">
+            <details class="accordion">
+                <summary class="accordion_title">
+                    <span class="accordion_icon" aria-hidden="true"></span>
+                    <h3 class="faq_subtitle">データのバックアップは取っておいた方が良いですか？</h3>
+                </summary>
+                <section class="accordion_body">
+                    <section id="accordion_content flow">
+                        <p class="details_p"><span id="superbig">はい。</span>
+                            <br>バックアップは常にとっておくことをお勧めします。
+                        </p>
+                    </section>
+                </section>
+            </details>
+        </div>
+
+        <div class="accordions">
+            <details class="accordion">
+                <summary class="accordion_title">
+                    <span class="accordion_icon" aria-hidden="true"></span>
+                    <h3 class="faq_subtitle">時間が溶けてしまいました。返してください。</h3>
+                </summary>
+                <section class="accordion_body">
+                    <section id="accordion_content flow">
+                        <p class="details_p">自己表現の時間は大切です。私はいいと思います。</p>
+                    </section>
+                </section>
+            </details>
+        </div>
+
+     -->
+
+    </section>
+
+    <footer class="footer">
+        <div class="footer_sec">
+            <div class="footer_logo_name">
+                <img src="../Drawing_Watch-icon_1024.png" id="footer_logo">
+                <h3 id="footer_name">Drawing Watch</h3>
+            </div>
+            <div class="footer-menu">
+                <ul class="footer-link">
+                    <li class="footer-item"><a href="index_en.html">TOP</a></li>
+                    <li class="footer-item"><a href="example_en.html">Example</a></li>
+                    <li class="footer-item"><a href="privacypolicy_en.html">Privacy Policy</a></li>
+                    <li class="footer-item"><a href="contact_en.html">Contact</a></li>
+                    <li class="footer-item"><a href="faq_en.html">FAQ</a></li>
+                    <li class="footer-item"><a href="about_en.html">App Information</a></li>
+                    <li class="footer-item"><a href="update_en.html">Update</a></li>
+                    <li class="footer-item"><a href=""></a></li><!-- あとでApp Storeのダウンロードボタンを埋め込む -->
+                </ul>
+            </div>
+            <div class="copyright">
+                <h3 id="kensho_right">© 2026 Kensho All rights reserved.</h3>
+                <p id="apple_right">iPhone, Apple Watch and watchOS are trademarks of Apple Inc.
+                    <br>iOS is a trademark or registered trademark of Cisco in the U.S. and other countries and is used under license.</p>
+                <p id="donotcopy">Unauthorized reproduction, redistribution, or duplication of any articles, photographs, illustrations, or other content on this website is prohibited.</p>
+                <p id="donotcopy">I'm not very good at English, so if you spot any mistakes or awkward phrasing, feel free to let me know via the email address listed on the Contact page!</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

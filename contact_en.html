@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Drawing Watch</title>
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="../contact.css">
+    <script src="../main.js"></script>
+    <!-- favicon, Apple-Touch-Icon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="../Drawing_Watch-icon_180.png">
+        <link rel="icon" href="../favicon.ico">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TBN8W9QC89"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-TBN8W9QC89');
+    </script>
+</head>
+<body>
+    <header class="header">
+        <!-- ロゴ -->
+        <div id="header_logo_a"><a href="index_en.html" id="header_logo_a">
+            <img src="../Drawing_Watch-icon_1024.png" id="header_logo">
+            <h3 id="header_name">Drawing Watch</h3>
+        </a></div>
+
+        <h3 id="header_contact">- Contact</h3>
+
+        <!-- 言語メニュー -->
+        <button class="language-button" type="button" aria-label="Select language" aria-expanded="false">
+            <svg xmlns="http://www.w3.org/2000/svg"
+                width="23" height="23" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor"
+                stroke-width="1.7" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M2 12h20"/>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10
+                        15.3 15.3 0 0 1-4 10
+                        15.3 15.3 0 0 1-4-10
+                        15.3 15.3 0 0 1 4-10z"/>
+            </svg>
+        </button>
+        <div class="language-menu" id="language-menu" hidden>
+            <a href="../contact.html" lang="ja">日本語</a>
+            <a href="contact_en.html" lang="en">English</a>
+        </div>
+
+        <!-- ハンバーガーメニュー -->
+        <div class="hamberger_menu">
+            <input id="hamberger_input" class="hamberger_hid" type="checkbox">
+            <label for="hamberger_input" class="hamberger_open"><span></span></label>
+        </div>
+    </header>
+
+    <nav class="menu_nav" id="side_menu">
+                <!-- ハンバーガメニュー -->
+                <ul class="menu-group">
+                    <!-- URL指定忘れずに -->
+                    <li class="menu-item" id="menu_top"><a href="index_en.html">TOP</a></li>
+                    <li class="menu-item"><a href="example_en.html">Example</a></li>
+                    <li class="menu-item"><a href="privacypolicy_en.html">Privacy Policy</a></li>
+                    <li class="menu-item"><a href="contact_en.html">Contact</a></li>
+                    <li class="menu-item"><a href="faq_en.html">FAQ</a></li>
+                    <li class="menu-item"><a href="about_en.html">App Information</a></li>
+                    <li class="menu-item"><a href="update_en.html">Update</a></li>
+                    <li class="menu-item"><a href=""></a></li>  <!-- あとでApp Storeのダウンロードボタンを埋め込む -->
+                </ul>
+            </nav>
+
+    <section class="contact_top">
+        <h3 class="title">Contact</h3>
+        <p>If you have any questions, suggestions, or bug reports regarding the app, please contact me using the information below.</p>
+    </section>
+
+    <section class="contact_what">
+        <h4>What You Can Contact Me About</h4>
+        <ul class="contact_what_items">
+            <li class="contact_what_item">Questions about how to use the app</li>
+            <li class="contact_what_item">Bug reports and issues with app functionality</li>
+            <li class="contact_what_item">Feedback and feature requests</li>
+            <li class="contact_what_item">Feedback or questions regarding the Privacy Policy</li>
+            <li class="contact_what_item">Artwork submissions for the Example page</li>
+        </ul>
+        <p><span class="red"><b>Please do not send abusive, offensive, or otherwise inappropriate inquiries</b></span>.</p>
+        <p>I may not respond to inquiries that do not fall into any of the categories listed above, or that I consider to be abusive, inappropriate, or otherwise not requiring a response.</p>
+    </section>
+
+    <section class="contact_contents">
+        <h4>Information to Include in Your Inquiry</h4>
+        <p>Please provide the following information whenever possible:</p>
+        <ul>
+            <li class="contact_content">The version of Drawing Watch installed on your iPhone (Drawing Watch > About > Version)</li>
+            <li class="contact_content">A description of your inquiry</li>
+            <li class="contact_content">An email adress where I can reach you</li>
+            <li class="contact_content">If your inquiry concerns a bug or you are submitting artwork to the Example page, please also provide the additional information listed below.</li>
+        </ul>
+
+        <h5>For Bug Reports</h5>
+        <p id="contact_trouble_p">In addition to the information listed above, please provide the following details whenever possible:</p>
+        <ul class="contact_trouble">
+            <li class="contact_content">The device you are using (Settings App > General > About)</li>
+            <li class="contact_content">Your iOS and watchOS versions (Settings App > General > About)</li>
+            <li class="contact_content">A description of the issue and any error messages displayed</li>
+            <li class="contact_content">The steps you took leading up to the issue</li>
+        </ul>
+
+        <h5>For Artwork Submissions</h5>
+        <p id="contact_trouble_p">If you would like to submit your artwork for inclusion in the Example page, please provide the following additional information whenever possible:</p>
+        <ul class="contact_trouble">
+            <li class="contact_content">A note indicating that you are submitting artwork for the Example page</li>
+            <li class="contact_content">A PNG image of your artwork (Please do not send JSON files.)</li>
+            <li class="contact_content">The date the artwork was completed (optional)</li>
+            <li class="contact_content">A comment about your artwork (optional)</li>
+        </ul>
+        <p id="contact_trouble_p">Please keep the following points in mind when submitting artwork</p>
+        <ul class="contact_trouble">
+            <li class="contact_content">Submitting artwork does not guarantee that it will be featured in the Example page.</li>
+            <li class="contact_content">When publishing your artwork on this website, I may convert the image to WebP or another format to reduce file size. This conversion may result in a slight loss of image quality compared to the original.</li>
+            <li class="contact_content">I reserve the right to datermine how long submitted artwork remains featured on this website.</li>
+        </ul>
+
+        <p>Please provide<b>as much detail as possible</b> when contacting me.</p>
+        <p>Providing detailed information may help me investigate and resolve your issue more quickly.</p>
+        <p>For information about how your email adress will be handled, please refer to  <a href="privacypolicy_en.html">Privacy Policy</a>  .</p>
+        
+        <h5>Please note:</h5>
+         <ul class="contact_trouble"> 
+            <li class="contact_content">Depending on the nature of your inquiry, it may take some time for me to respond.</li>
+            <li class="contact_content"><span class="red"><b>Please do not send unnecessary personal information, such as your full name, home address, or phone number.</b></span></li>
+        </ul>
+
+    </section>
+
+    <section class="contact_where">
+        <h4>Contact Information </h4>
+        <p>Email: <strong><span class="red">Coming Soon</span></strong></p> <!-- メールアドレスを入れておく -->
+    </section>
+
+    <footer class="footer">
+        <div class="footer_sec">
+            <div class="footer_logo_name">
+                <img src="../Drawing_Watch-icon_1024.png" id="footer_logo">
+                <h3 id="footer_name">Drawing Watch</h3>
+
+            </div>
+            <div class="footer-menu">
+                <ul class="footer-link">
+                    <li class="footer-item"><a href="index_en.html">TOP</a></li>
+                    <li class="footer-item"><a href="example_en.html">Example</a></li>
+                    <li class="footer-item"><a href="privacypolicy_en.html">Privacy Policy</a></li>
+                    <li class="footer-item"><a href="contact_en.html">Contact</a></li>
+                    <li class="footer-item"><a href="faq_en.html">FAQ</a></li>
+                    <li class="footer-item"><a href="about_en.html">App Information</a></li>
+                    <li class="footer-item"><a href="update_en.html">Update</a></li>
+                    <li class="footer-item"><a href=""></a></li><!-- あとでApp Storeのダウンロードボタンを埋め込む -->
+                </ul>
+            </div>
+            <div class="copyright">
+                <h3 id="kensho_right">© 2026 Kensho All rights reserved.</h3>
+                <p id="apple_right">iPhone, Apple Watch and watchOS are trademarks of Apple Inc.
+                    <br>iOS is a trademark or registered trademark of Cisco in the U.S. and other countries and is used under license.</p>
+                <p id="donotcopy">Unauthorized reproduction, redistribution, or duplication of any articles, photographs, illustrations, or other content on this website is prohibited.</p>
+                <p id="donotcopy">I'm not very good at English, so if you spot any mistakes or awkward phrasing, feel free to let me know via the email address listed on the Contact page!</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
